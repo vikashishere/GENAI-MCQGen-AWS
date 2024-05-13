@@ -1,0 +1,9 @@
+1. Create a github repo and clone in local.
+2. Create a venv:
+    > conda create -p genai python=3.8 -y
+    > conda activate C:\Users\Personal\Desktop\DSMP2023-2024\Self_Researched_Projects\Proj-9\GENAI-MCQGen-AWS\genai
+      (you can also use "source activate ..." if conda command throws error)
+      (also, add "genai" to .gitignore file and add requirements.txt, setup.py to project)
+      (add src dir and __init__.py file inside | add src.mcqgenerator dir and __init__.py file inside)
+      (add experiment dir and mcq.ipynb file inside)
+    > pip install -r requirements.txt
